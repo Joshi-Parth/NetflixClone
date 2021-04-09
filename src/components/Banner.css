@@ -1,7 +1,8 @@
 .banner {
+    position: relative;
     color: white;
     object-fit: contain;
-    height: 448px;
+    min-height: 448px;
 }
 
 .banner_contents {
@@ -11,6 +12,7 @@
 }
 
 .banner_title {
+    margin-left: 20px;;
     font-size: 3rem;
     font-weight: 800;
     padding-bottom: 0.3rem;
@@ -18,6 +20,7 @@
 
 
 .banner_description {
+    margin-left: 20px;
     width: 45rem;
     line-height: 1.3;
     padding-top: 1rem;
@@ -27,6 +30,7 @@
 }
 
 .banner_button {
+    margin-left: 20px;
     cursor: pointer;
     color: #fff;
     outline:none;
@@ -48,7 +52,7 @@
 }
 
 .banner_fadeBottom {
-    height: 7.4rem;
+    height: 9.4rem;
     background-image: linear-gradient(
         180deg,
         transparent,

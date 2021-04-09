@@ -32,7 +32,10 @@ function Row({ title, fetchUrl, isLargeRow }) {
         },
     };
 
+  
+
     const handleOnClick = (movie) => {
+        console.log(movie);
         if(trailerUrl) {
             setTrailerUrl("");
         } else {
@@ -41,7 +44,7 @@ function Row({ title, fetchUrl, isLargeRow }) {
                 const urlParams = new URLSearchParams(new URL(url).search);
                 setTrailerUrl(urlParams.get("v"));
             })
-            .catch((error) => console.log(error))
+            .catch((error) => alert("Trailer Not found"))
         }
     }
 
