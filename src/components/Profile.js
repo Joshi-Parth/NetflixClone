@@ -2,7 +2,7 @@ import React from 'react'
 import './Profile.css'
 import Nav from "./Nav"
 import { useSelector } from 'react-redux'
-import { selectUser } from '../features/counter/userSlice'
+import { selectUser } from '../features/userSlice'
 import { auth } from '../firebase'
 
 
